@@ -1,13 +1,13 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Companies from "../components/Footer";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col">
+    <div className="bg-primary text-white min-h-screen flex flex-col">
       <Header />
       <Hero />
-      <Companies />
+      <Footer />
     </div>
   );
 }
