@@ -5,6 +5,7 @@ import senai_logo from "../assets/logo_nova_senai_solucoes_digitais.png";
 import pacto_logo from "../assets/logo_pacto_white.png";
 import lsd_logo from "../assets/lsd_02.png";
 import dell_logo from "../assets/dell_reviewd_logo.png";
+import LanguageSwitcher from "../components/LanguageSwitcher"; 
 
 export default function Home() {
   return (
@@ -32,6 +33,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Add the LanguageSwitcher here */}
+      <LanguageSwitcher />
     </div>
   );
 }
