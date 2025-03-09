@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Hero from "../components/Hero";
 // import Footer from "../components/Footer";
 import senai_logo from "../assets/logo_nova_senai_solucoes_digitais.png";
@@ -10,13 +10,11 @@ export default function Home() {
   return (
     <div className="text-white min-h-screen w-full bg-[#080808]">
       <div className="max-w-[1366px] m-auto">
-        <Header />
         <Hero />
-      {/* Footer */}
-      {/* <div className="flex-grow"></div> */}
       </div >
         <section className="py-8 px-8 text-center bg-[#080808]">
-        <p className="text-[#9C9C9C] text-left tracking-wide font-mono w-full px-148 mt-30">
+        <p className="text-[#9C9C9C] text-left tracking-wide font-mono w-full 3
+        px-148 mt-30">
           Worked with
         </p>
         <div className="flex flex-wrap justify-center gap-6 mt-4 py-auto">
