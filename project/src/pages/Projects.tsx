@@ -18,7 +18,7 @@ export default function Projects() {
             <li><strong>Technologies Used:</strong> Python, Django, PostgreSQL, etc.</li>
             <li><strong>Key Outcome:</strong> [Brief description of the project’s impact or result]</li>
           </ul>
-          <button className="btn-green mt-4">Read More</button>
+          <button className="border bg-[#3F8E00] border-[#62BA1B] w-36 px-6 py-2 mt-6 p-4 rounded-md">Read More</button>
         </div>
 
         {/* Case Study 2 */}
@@ -31,7 +31,7 @@ export default function Projects() {
             <li><strong>Technologies Used:</strong> TypeScript, NestJS, MongoDB</li>
             <li><strong>Key Outcome:</strong> [Brief project impact]</li>
           </ul>
-          <button className="btn-green mt-4">Read More</button>
+          <button className="border bg-[#3F8E00] border-[#62BA1B] w-36 px-6 py-2 mt-6 p-4 rounded-md">Read More</button>
         </div>
 
         {/* Case Study 3 */}
@@ -44,7 +44,7 @@ export default function Projects() {
             <li><strong>Technologies Used:</strong> TensorFlow, Machine Learning</li>
             <li><strong>Key Outcome:</strong> [Result or impact of the project]</li>
           </ul>
-          <button className="btn-green mt-4">Read More</button>
+          <button className="border bg-[#3F8E00] border-[#62BA1B] w-36 px-6 py-2 mt-6 p-4 rounded-md">Read More</button>
         </div>
 
         {/* Case Study 4 */}
@@ -57,7 +57,7 @@ export default function Projects() {
             <li><strong>Technologies Used:</strong> Python, AWS, PostgreSQL</li>
             <li><strong>Key Outcome:</strong> [Impact of the project]</li>
           </ul>
-          <button className="btn-green mt-4">Read More</button>
+          <button className="border bg-[#3F8E00] border-[#62BA1B] w-36 px-6 py-2 mt-6 p-4 rounded-md">Read More</button>
         </div>
 
         {/* Case Study 5 */}
@@ -70,7 +70,7 @@ export default function Projects() {
             <li><strong>Technologies Used:</strong> Pandas, Machine Learning</li>
             <li><strong>Key Outcome:</strong> [Outcome or impact]</li>
           </ul>
-          <button className="btn-green mt-4">Read More</button>
+          <button className="border bg-[#3F8E00] border-[#62BA1B] w-36 px-6 py-2 mt-6 p-4 rounded-md">Read More</button>
         </div>
 
         {/* Case Study 6 */}
@@ -83,7 +83,7 @@ export default function Projects() {
             <li><strong>Technologies Used:</strong> Seaborn, Plotly</li>
             <li><strong>Key Outcome:</strong> [Result of the project]</li>
           </ul>
-          <button className="btn-green mt-4">Read More</button>
+          <button className="border bg-[#3F8E00] border-[#62BA1B] w-36 px-6 py-2 mt-6 p-4 rounded-md">Read More</button>
         </div>
       </div>
     </div>

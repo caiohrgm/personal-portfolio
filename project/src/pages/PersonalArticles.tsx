@@ -16,7 +16,7 @@ export default function PersonalArticles() {
             <p className="text-[#9C9C9C] mt-2 font-mono">
               In this article, I discuss [brief description]. This article shares insights into [what readers will learn].
             </p>
-            <Link to="/articles/personal-articles/article-one" className="btn-green mt-4 w-36 px-6 py-2 text-center">Read Article</Link>
+            <Link to="/articles/personal-articles/article-one" className="border bg-[#3F8E00] border-[#62BA1B] mt-6 p-4 rounded-md font-mono w-36 px-6 py-2 text-center">Read More</Link>
           </div>
   
           {/* Article 2 */}
@@ -25,7 +25,7 @@ export default function PersonalArticles() {
             <p className="text-[#9C9C9C] mt-2 font-mono">
               This article explores [description of article]. I dive into [what the article covers].
             </p>
-            <Link to="/articles/personal-articles/article-two" className="btn-green mt-4 w-36 px-6 py-2 text-center">Read Article</Link>
+            <Link to="/articles/personal-articles/article-two" className="border bg-[#3F8E00] border-[#62BA1B] mt-6 p-4 rounded-md font-mono w-36 px-6 py-2 text-center">Read More</Link>
           </div>
   
           {/* More articles can follow... */}

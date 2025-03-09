@@ -1,5 +1,6 @@
 import profileImage from "../assets/profile.png";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+
 
 export default function Hero() {
   return (
@@ -11,7 +12,7 @@ export default function Hero() {
         </p>
         <Link to="/about">
           <button className="border bg-[#3F8E00] border-[#62BA1B] mt-6 p-4 rounded-md font-mono">
-            Let´s get started
+            Let’s get started
           </button>
         </Link>
       </div>

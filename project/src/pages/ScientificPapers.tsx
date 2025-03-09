@@ -14,7 +14,7 @@ export default function ScientificPapers() {
             <p className="text-[#9C9C9C] mt-2 font-mono">
               This paper explores [brief description]. It was published in [Journal Name] and focuses on [key themes and findings].
             </p>
-            <a href="[link-to-paper]" target="_blank" rel="noopener noreferrer" className="btn-green mt-4 w-36 px-6 py-2 text-center">Read Paper</a>
+            <a href="[link-to-paper]" target="_blank" rel="noopener noreferrer" className="border bg-[#3F8E00] border-[#62BA1B] mt-6 p-4 rounded-md font-mono w-36 px-6 py-2 text-center">Read More</a>
           </div>
   
           {/* Paper 2 */}
@@ -23,7 +23,7 @@ export default function ScientificPapers() {
             <p className="text-[#9C9C9C] mt-2 font-mono">
               This research paper focuses on [brief description of research]. It was published in [Journal Name].
             </p>
-            <a href="[link-to-paper]" target="_blank" rel="noopener noreferrer" className="btn-green mt-4 w-36 px-6 py-2 text-center">Read Paper</a>
+            <a href="[link-to-paper]" target="_blank" rel="noopener noreferrer" className="border bg-[#3F8E00] border-[#62BA1B] mt-6 p-4 rounded-md font-mono w-36 px-6 py-2 text-center">Read More</a>
           </div>
   
           {/* More papers can follow... */}

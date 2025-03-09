@@ -14,7 +14,7 @@ export default function Contact() {
         <div className="text-white min-h-screen w-full bg-[#080808] px-8 py-12">
             <h1 className="text-5xl font-bold font-raleway text-[#9C9C9C]">Contact</h1>
             <p className="text-[#9C9C9C] mt-4 font-mono tracking-wide">
-                Feel free to reach out to me through any of the contact options below.
+                Feel free to reach out through any of my contact options.
             </p>
 
             {/* Contact Info */}

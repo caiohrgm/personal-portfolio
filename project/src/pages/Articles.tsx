@@ -12,10 +12,10 @@ export default function Articles() {
       <div className="mt-8">
         <div className="flex space-x-8">
           <Link to="/articles/scientific-papers">
-            <button className="btn-green">Scientific Papers</button>
+            <button className="border bg-[#3F8E00] border-[#62BA1B] mt-6 p-4 rounded-md font-mono">Scientific Papers</button>
           </Link>
           <Link to="/articles/personal-articles">
-            <button className="btn-green">Personal Articles</button>
+            <button className="border bg-[#3F8E00] border-[#62BA1B] mt-6 p-4 rounded-md font-mono">Personal Articles</button>
           </Link>
         </div>
       </div>
