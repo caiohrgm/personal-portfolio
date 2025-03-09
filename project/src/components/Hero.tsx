@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import profileImage from "../assets/profile.png";
 import { FormattedMessage } from "react-intl";
 
@@ -9,9 +10,11 @@ export default function Hero() {
         <p className="text-[#9C9C9C] mt-4 font-mono">
           <FormattedMessage id="description" />
         </p>
+        <Link to="/about">
         <button className="border bg-[#3F8E00] border-[#62BA1B] mt-6 p-4 rounded-md font-mono">
           <FormattedMessage id="button" />
         </button>
+        </Link>
       </div>
 
       <div className="mt-8 md:mt-0 md:ml-12">
