@@ -14,7 +14,7 @@ export default function Home() {
       </div >
         <section className="py-8 px-8 text-center bg-[#080808]">
         <p className="text-[#9C9C9C] text-left tracking-wide font-mono w-full 3
-        px-148 mt-30">
+        px-75 mt-30">
           Worked with
         </p>
         <div className="flex flex-wrap justify-center gap-6 mt-4 py-auto">

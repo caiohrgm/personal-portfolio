@@ -9,21 +9,21 @@ export default function ScientificPapers() {
         {/* Paper List */}
         <div className="mt-8 space-y-8">
           {/* Paper 1 */}
-          <div className="bg-[#080808] border border-[#1B1B1B] p-6 rounded-lg">
+          <div className="bg-[#080808] border border-[#1B1B1B] p-6 rounded-lg flex flex-col">
             <h2 className="text-xl font-bold font-raleway text-white">Paper Title One</h2>
             <p className="text-[#9C9C9C] mt-2 font-mono">
               This paper explores [brief description]. It was published in [Journal Name] and focuses on [key themes and findings].
             </p>
-            <a href="[link-to-paper]" target="_blank" rel="noopener noreferrer" className="btn-green mt-4">Read Paper</a>
+            <a href="[link-to-paper]" target="_blank" rel="noopener noreferrer" className="btn-green mt-4 w-36 px-6 py-2 text-center">Read Paper</a>
           </div>
   
           {/* Paper 2 */}
-          <div className="bg-[#080808] border border-[#1B1B1B] p-6 rounded-lg">
+          <div className="bg-[#080808] border border-[#1B1B1B] p-6 rounded-lg flex flex-col">
             <h2 className="text-xl font-bold font-raleway text-white">Paper Title Two</h2>
             <p className="text-[#9C9C9C] mt-2 font-mono">
               This research paper focuses on [brief description of research]. It was published in [Journal Name].
             </p>
-            <a href="[link-to-paper]" target="_blank" rel="noopener noreferrer" className="btn-green mt-4">Read Paper</a>
+            <a href="[link-to-paper]" target="_blank" rel="noopener noreferrer" className="btn-green mt-4 w-36 px-6 py-2 text-center">Read Paper</a>
           </div>
   
           {/* More papers can follow... */}

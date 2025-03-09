@@ -15,7 +15,7 @@ export default function AppRouter() {
     <Router>
       <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} />
-        <Route path="/about-me" element={<Layout><AboutMe /></Layout>} />
+        <Route path="/about" element={<Layout><AboutMe /></Layout>} />
         <Route path="/projects" element={<Layout><Projects /></Layout>} />
         <Route path="/skills" element={<Layout><SkillsAndExpertise /></Layout>} />
          <Route path="/articles" element={<Layout><Articles /></Layout>} />
