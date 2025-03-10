@@ -1,4 +1,4 @@
-import profileImage from "../../assets/profile.png";
+import profileImage from "../../assets/profile_pic_gray.jpg";
 
 export default function Hero() {
   return (
@@ -6,15 +6,17 @@ export default function Hero() {
       {/* Texto e Botão */}
       <div className="text-center md:text-left max-w-lg">
         <h1 className="text-5xl font-bold font-raleway text-white">
-          Your Name Here
+          Caio Medeiros
         </h1>
         <p className="text-[#9C9C9C] mt-4 font-mono text-lg">
-          Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Software Engineer and Data Scientist, specialized in back-end, data analysis and R&D Projects. 
         </p>
         <a href="#" className="inline-block mt-6">
-          <button className="bg-mint-300 hover:bg-light-purple-300 text-dark-purple-900 font-mono px-6 py-3 rounded-lg shadow-md transition duration-300">
+        <button className="bg-mint-300 hover:bg-light-purple-300 text-dark-purple-900 
+                            font-mono px-6 py-3 rounded-lg shadow-md transition duration-300 
+                            cursor-pointer">
             Let's get started →
-          </button>
+        </button>
         </a>
       </div>
 
@@ -23,7 +25,7 @@ export default function Hero() {
         <img
           src={profileImage}
           alt="Profile"
-          className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg"
+          className="w-48 h-48 md:w-96 md:h-96 rounded-full object-cover shadow-lg"
         />
       </div>
     </section>
