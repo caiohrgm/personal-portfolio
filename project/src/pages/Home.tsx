@@ -1,5 +1,6 @@
-import Header from "../components/Header";
-// import Hero from "../components/Hero";
+import Header from "../components/Home/Header";
+import Hero from "../components/Home/Hero";
+import Footer from "../components/Home/Footer";
 // import senai_logo from "../assets/logo_nova_senai_solucoes_digitais.png";
 // import pacto_logo from "../assets/logo_pacto_white.png";
 // import lsd_logo from "../assets/lsd_02.png";
@@ -11,8 +12,8 @@ export default function Home() {
       <div className="max-w-[1366px] m-auto">
         <Header />
       </div>
-      <div>Hero</div>
-      <div>Footer</div>
+      <div><Hero /></div>
+      <div><Footer /></div>
     </div>
   );
 }

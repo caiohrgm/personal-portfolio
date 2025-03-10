@@ -1,12 +1,12 @@
 // import { Link } from "react-router-dom";
-import github_logo from "../assets/git_logo_gray.png";
-import linkedin_logo from "../assets/linkedin_logo_colored.png";
+import github_logo from "../../assets/github_logo_white.png";
+import linkedin_logo from "../../assets/linkedin_logo_white.png";
 // import profileImage from "../assets/profile.png";
 
 export default function Header() {
   return (
     <section className="flex flex-col-reverse md:flex-row items-center flex-grow px-8 py-12 md:py-2 mt-0">
-      <header className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-screen-lg bg-light-purple-300 py-4 px-4 sm:px-8 flex justify-between items-center border rounded-md ">
+      <header className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-screen-lg bg-light-purple-300 py-2 px-4 sm:px-8 flex justify-between items-center border border-gray-700 rounded-b-md">
         <nav className="flex space-x-6 text-vanilla-gray-300 font-mono">
           <a href="#" className="hover:text-mint-300">
             Home
