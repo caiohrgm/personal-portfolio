@@ -6,7 +6,7 @@ import linkedin_logo from "../assets/linkedin_logo_colored.png";
 export default function Header() {
   return (
     <section className="flex flex-col-reverse md:flex-row items-center flex-grow px-8 py-12 md:py-2 mt-0">
-      <header className="bg-light-purple-300 py-4 px-8 flex justify-between items-center border rounded-md border-mint-300">
+      <header className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-screen-lg bg-light-purple-300 py-4 px-4 sm:px-8 flex justify-between items-center border rounded-md border-mint-300">
         <nav className="flex space-x-6 text-vanilla-gray-300 font-mono">
           <a href="#" className="hover:text-mint-300">
             Home
