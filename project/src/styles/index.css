@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@layer theme, base, components, utilities;
+
+@theme {
+  --color-dark-purple-900: #211951;
+  --color-light-purple-300: #836fff;
+  --color-mint-300: #15f5ba;
+  --color-vanilla-gray-300: #f0f3ff;
+  --font-ibm-mono: "IBM Plex Mono", monospace;
+}
