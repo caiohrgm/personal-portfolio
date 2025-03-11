@@ -8,3 +8,10 @@
   --color-vanilla-gray-300: #f0f3ff;
   --font-ibm-mono: "IBM Plex Mono", monospace;
 }
+
+@layer base {
+  .text-stroke-purple {
+    -webkit-text-stroke: 0.3px #0b9d80; /* Adjust thickness and color */
+    color: #98f5e1; /* Tailwind mint color or any you prefer */
+  }
+}
