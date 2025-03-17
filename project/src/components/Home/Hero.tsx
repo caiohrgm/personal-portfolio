@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import profileImage from "../../assets/profile_pic_gray.jpg";
 
 export default function Hero() {
@@ -8,16 +9,19 @@ export default function Hero() {
         <h1 className="text-5xl font-bold font-raleway text-white">
           Caio Medeiros
         </h1>
-        <p className="text-[#9C9C9C] mt-4 font-mono text-lg">
-          Software Engineer and Data Scientist, specialized in back-end, data analysis and R&D Projects. 
+        <p className="text-gray-400 mt-4 font-mono text-lg">
+          Software Engineer and Data Scientist, specialized in back-end, data
+          analysis and R&D Projects.
         </p>
-        <a href="#" className="inline-block mt-6">
-        <button className="bg-mint-300 hover:bg-light-purple-300 text-dark-purple-900 
+        <Link to="/about" className="inline-block mt-6">
+          <button
+            className="bg-mint-300 hover:bg-light-purple-300 text-dark-purple-900 
                             font-mono px-6 py-3 rounded-lg shadow-md transition duration-300 
-                            cursor-pointer">
-            Let's get started →
-        </button>
-        </a>
+                            cursor-pointer border border-[#08a47d]"
+          >
+            Let's get started
+          </button>
+        </Link>
       </div>
 
       {/* Imagem de Perfil */}
