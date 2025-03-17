@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Paleta em Tons Pastel + Fundo Escuro */
+    --bg-primary: #eb0505;
+    --color-bg-secondary: #121212;
+
+    --color-text-primary: #fff7eb;
+    --color-text-secondary: #8fc7ce;
+    --color-accent: #ffd0a3;
+    --color-accent-hover: #ffe0be;
+    --color-link-hover: #a4d7dd;
+    --color-info: #7a8cc2;
+
+    /* --font-sans: "IBM Plex Mono", ui-sans-serif, system-ui, sans-serif; */
+    --font-serif: "Raleway", ui-serif, Georgia, Cambria, "Times New Roman",
+      Times, serif;
+    --font-mono: "IBM Plex Mono", SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-text-primary);
+  }
+
+  a {
+    color: var(--color-text-secondary);
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: var(--color-link-hover);
+  }
+
+  .text-info {
+    color: var(--color-info);
+  }
+
+  .border-info {
+    border-color: var(--color-info);
+  }
+
+  .bg-info {
+    background-color: var(--color-info);
+  }
+}
+
+@layer components {
+  .btn {
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+    font-weight: 600;
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .btn:hover {
+    background-color: var(--color-accent-hover);
+    transform: scale(1.03);
+  }
+
+  .header {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    font-family: var(--font-mono);
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #2a2a2a;
+  }
+
+  .badge-info {
+    background-color: var(--color-info);
+    color: var(--color-bg);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+}
