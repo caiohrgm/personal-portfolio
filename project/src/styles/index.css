@@ -5,13 +5,14 @@
   --color-dark-purple-900: #211951;
   --color-light-purple-300: #836fff;
   --color-mint-300: #15f5ba;
+  --color-mint-medium: #0fc68e;
   --color-vanilla-gray-300: #f0f3ff;
   --font-ibm-mono: "IBM Plex Mono", monospace;
 }
 
 @layer base {
   .text-stroke-purple {
-    -webkit-text-stroke: 0.3px #0b9d80; /* Adjust thickness and color */
+    -webkit-text-stroke: 0.3px #836fff; /* Adjust thickness and color */
     color: #98f5e1; /* Tailwind mint color or any you prefer */
   }
 }
