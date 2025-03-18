@@ -15,9 +15,9 @@ export default function Hero() {
         </p>
         <Link to="/about" className="inline-block mt-6">
           <button
-            className="bg-mint-300 hover:bg-light-purple-300 text-dark-purple-900 
+            className="bg-mint-300 hover:bg-mint-medium text-light-purple-300 font-bold 
                             font-mono px-6 py-3 rounded-lg shadow-md transition duration-300 
-                            cursor-pointer border border-[#08a47d]"
+                            cursor-pointer border border-mint-medium hover:text-vanilla-gray-300"
           >
             Let's get started
           </button>
