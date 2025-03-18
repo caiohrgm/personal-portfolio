@@ -1,34 +1,35 @@
-// src/pages/ProjectPage.tsx
 import { useParams } from "react-router-dom";
+import { projects } from "../Data/projecstsData";
 import ProjectLayout from "./ProjectLayout";
 
-// Optionally you could define your data somewhere else (JSON or object)
-const projectData: Record<string, any> = {
-  "project-one": {
-    companyIntro: <p>Company A was a startup focused on XYZ...</p>,
-    roleAtCompany: <p>I led research and design for the MVP...</p>,
-    projectDescription: <p>We tackled [problem] using [tech stack]...</p>,
-  },
-  "project-two": {
-    companyIntro: <p>Company B focused on logistics software...</p>,
-    roleAtCompany: <p>Handled frontend architecture & UX...</p>,
-    projectDescription: <p>Solution improved [metrics] using [tools]...</p>,
-  },
-};
-
 export default function ProjectPage() {
-  const { slug } = useParams<{ slug: string }>();
-  const project = projectData[slug || ""];
+  const { slug } = useParams();
+  const project = projects[slug as keyof typeof projects];
 
   if (!project) {
-    return <div className="text-center py-16 text-red-500">Project not found.</div>;
+    return <div className="p-8 text-red-500">Project not found</div>;
   }
 
   return (
     <ProjectLayout
-      companyIntro={project.companyIntro}
-      roleAtCompany={project.roleAtCompany}
-      projectDescription={project.projectDescription}
+      companyIntro={
+        <div>
+          <h2 className="text-3xl font-bold">{project.title}</h2>
+          <p className="text-lg">{project.industry}</p>
+          <p>{project.description}</p>
+        </div>
+      }
+      roleAtCompany={
+        <div>
+          <h3 className="text-2xl font-semibold">My Role</h3>
+          <p>{project.role}</p>
+        </div>
+      }
+      projectDescription={
+        <div>
+          {/* You can put more info here */}
+        </div>
+      }
     />
   );
 }
