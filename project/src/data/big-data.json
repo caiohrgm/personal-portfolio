@@ -1,0 +1,20 @@
+{
+  "projectName": "Big Data",    
+  "companyName": "Siteware",
+    "industry": "Tecnologia",
+    "description": "Atuei predição em ambientes distribuídos, focando em séries temporais.",
+    "roleTitle": "Data Scientist",
+    "roleDescription": "Responsável por criar modelos preditivos e pipelines de dados.",
+    "images": ["grafico1.png", "pipeline_diagrama.png"],
+    "additionalRoles": [
+      {
+        "title": "ML Engineer",
+        "text": "Desenvolvi pipelines com Airflow e monitoramento com MLflow."
+      },
+      {
+        "title": "Backend Developer",
+        "text": "Criação de APIs com FastAPI e integração com PostgreSQL."
+      }
+    ]
+  }
+  

@@ -3,6 +3,7 @@ import pactomais_logo from "../../assets/home_images/pacto_mais_logo.png";
 import lsd_logo from "../../assets/home_images/lsd_logo.png";
 import dell_logo from "../../assets/home_images/dell_logo.png";
 
+
 export default function Footer() {
   return (
     <footer className="w-full bg-dark-purple-900">

@@ -32,8 +32,6 @@ export default function ProjectTemplate() {
       });
   }, [projectId]);
 
-  console.log(data)
-
   if (!data) {
     return <div className="text-center mt-16 text-white">Project Not found.</div>;
   }
@@ -67,6 +65,7 @@ export default function ProjectTemplate() {
               {data.industry}
             </h2>
             <h1 className="text-4xl font-bold text-light-purple-300 mb-4">
+
               {data.companyName}
             </h1>
             <p className="text-gray-600">{data.description}</p>
@@ -86,6 +85,7 @@ export default function ProjectTemplate() {
             My Role
           </h3>
           <h2 className="text-2xl font-bold text-light-purple-300 mb-2">
+
             {data.roleTitle}
           </h2>
           <p className="text-gray-600 mb-8">{data.roleDescription}</p>
@@ -118,6 +118,7 @@ export default function ProjectTemplate() {
 
           <footer className="mt-16 text-sm text-gray-400 border-t pt-4">
             © 2025 Caio Medeiros. All rights reserved.
+
           </footer>
         </div>
       </div>

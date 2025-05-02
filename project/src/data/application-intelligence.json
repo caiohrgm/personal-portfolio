@@ -1,0 +1,27 @@
+{
+  "projectName": "Application Intelligence",
+  "companyName": "DELL",
+  "industry": "Technology",
+  "description": "Project developed in partnership between DELL and the Distributed Systems Laboratory (LSD) at Universidade Federal de Campina Grande, focused on analyzing and forecasting the usage of observability tools (such as Splunk) in distributed environments. The goal was to accurately predict data consumption (in GB) over different time windows, supporting cost planning and resource optimization.",
+  "roleTitle": "Data Science Lead",
+  "roleDescription": "Led the data science efforts, including researching, implementing, and validating predictive models for time series forecasting. Also contributed to designing the overall architecture of the prediction service, ensuring smooth integration with orchestration and monitoring tools in a production environment.",
+  "images": [
+    "time_series_forecast_splunk.png",
+    "time_series_graph.png",
+    "mlflow_airflow_pipeline.png"
+  ],
+  "additionalRoles": [
+    {
+      "title": "Machine Learning Engineer",
+      "text": "Designed and implemented end-to-end modeling pipelines integrated with MLflow for model tracking, versioning, and comparison. Automated model selection based on performance metrics."
+    },
+    {
+      "title": "Backend Developer",
+      "text": "Planned and developed the backend architecture of the forecasting service, integrating APIs with databases and orchestration systems (Airflow). The system was deployed in a Kubernetes environment using scheduled pods for periodic predictions."
+    },
+    {
+      "title": "Time Series Researcher",
+      "text": "Researched, implemented, and evaluated multiple forecasting approaches, including ARIMA, SARIMA, Prophet, exponential smoothing, and recurrent neural networks (RNNs), to ensure accuracy and robustness."
+    }
+  ]
+}
