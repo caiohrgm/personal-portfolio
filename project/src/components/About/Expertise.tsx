@@ -8,10 +8,10 @@ export default function Expertise() {
         <div className="bg-white p-6  shadow-lg border-r border-light-purple-100">
           {/* ABOUT ME LABEL WITH LINE */}
           <div className="flex flex-col items-start mb-6">
-            <h2 className="text-sm font-bold text-zinc-700 opacity-25">
+            <h2 className="text-sm font-bold text-mint-medium opacity-60">
               About Me
             </h2>
-            <div className="w-full h-px bg-zinc-700 opacity-25 mt-2"></div>
+            <div className="w-full h-px bg-mint-medium opacity-40 mt-2"></div>
           </div>
 
           <h2 className="text-3xl font-bold text-light-purple-300">
@@ -80,9 +80,7 @@ export default function Expertise() {
               <p className="text-sm text-light-purple-300">
                 Universidade Federal de Campina Grande
               </p>
-              <p className="text-sm text-mint-medium">
-                2023-2025
-              </p>
+              <p className="text-sm text-mint-medium">Mar/23 - Jul/25</p>
             </div>
             {/* Education */}
             <div className="p-6 text-center">
@@ -90,11 +88,12 @@ export default function Expertise() {
                 Computer Sciente Major
               </h3>
               <p className="text-sm text-light-purple-300">
-                Universidade Federal de Campina Grande, 2022.
+
+                Universidade Federal de Campina Grande
               </p>
-              <p className="text-sm text-mint-medium">
-                2019 - 2022
-              </p>
+              <p className="text-sm text-mint-medium">Feb/19 - Oct/22</p>
+
+
             </div>
 
             {/* BOTTOM ROLES (SIDE-BY-SIDE) */}
