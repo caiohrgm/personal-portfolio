@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import github_logo from "../../assets/github_logo_white.png";
-import linkedin_logo from "../../assets/linkedin_logo_white.png";
+import github_logo from "../../assets/home_images/github_white_logo.png";
+import linkedin_logo from "../../assets/home_images/linkedin_white_logo.png";
+
 
 export default function Header() {
   console.log(github_logo);
@@ -11,12 +12,17 @@ export default function Header() {
           <Link to="/" className="hover:text-mint-300">
             Home
           </Link>
+
           <Link to="/about" className="hover:text-mint-300">
             About Me
           </Link>
+
           <Link to="/projects" className="hover:text-mint-300">
-            Projects
+            <span className="cursor-pointer text-soft-aqua-300 hover:text-mint-300">
+              Projects
+            </span>
           </Link>
+
           <Link to="/skills" className="hover:text-mint-300">
             Skills
           </Link>
@@ -87,3 +93,4 @@ export default function Header() {
     </header>
   );
 }
+

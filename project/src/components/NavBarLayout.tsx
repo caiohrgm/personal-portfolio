@@ -9,7 +9,7 @@ export default function Layout() {
       <main className="flex-grow max-w-[1366px] mx-auto p-4">
         <Outlet /> {/* This renders the current page */}
       </main>
-      {/* <Footer /> */}
+
     </div>
   );
 }

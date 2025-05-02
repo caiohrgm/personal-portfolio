@@ -8,6 +8,9 @@
   --color-mint-medium: #0fc68e;
   --color-vanilla-gray-300: #f0f3ff;
   --font-ibm-mono: "IBM Plex Mono", monospace;
+  --font-raleway-100: "Raleway", sans-serif;
+  --font-raleway-700: "Raleway", sans-serif;
+
 }
 
 @layer base {
@@ -16,3 +19,37 @@
     color: #98f5e1; /* Tailwind mint color or any you prefer */
   }
 }
+
+@layer utilities {
+  /* Add a utility for each font-weight */
+  .font-raleway-100 {
+    font-family: var(--font-raleway-100);
+    font-weight: 100;
+  }
+
+  .font-raleway-700 {
+    font-family: var(--font-raleway-700);
+    font-weight: 700;
+  }
+
+  /* Scrollbar styling for horizontal scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 16px; /* Horizontal scrollbar */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--color-light-purple-300);
+    border-radius: 16px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-dark-purple-900); 
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: var(--color-vanilla-gray-300); /* Light background for the track */
+    border-radius: 16px; /* Optional: Rounded corners for the track */
+  }
+}
+
