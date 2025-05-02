@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import ProjectTemplate from "./components/Projects/ProjectTemplate";
 
+
 export default function App() {
   return (
     <Routes>
@@ -13,8 +14,8 @@ export default function App() {
         <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects />} />
         <Route path="/projects/:projectId" element={<ProjectTemplate />} />
+
       </Route>
     </Routes>
   );
 }
-

@@ -10,6 +10,7 @@
   --font-ibm-mono: "IBM Plex Mono", monospace;
   --font-raleway-100: "Raleway", sans-serif;
   --font-raleway-700: "Raleway", sans-serif;
+
 }
 
 @layer base {
@@ -51,3 +52,4 @@
     border-radius: 16px; /* Optional: Rounded corners for the track */
   }
 }
+

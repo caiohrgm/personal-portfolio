@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import profileImage from "../../assets/home_images/profile_image.jpg";
 
 
+
 export default function Hero() {
   return (
     <section className="w-full max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-between px-6 sm:px-12 py-16 md:py-24 bg-dark-purple-900 mt-20">
@@ -19,6 +20,7 @@ export default function Hero() {
             className="bg-mint-300 hover:bg-mint-medium text-light-purple-300 font-bold 
                             font-mono px-6 py-3 rounded-lg shadow-md transition duration-300 
                             cursor-pointer border border-mint-medium hover:text-vanilla-gray-300"
+
           >
             Let's get started
           </button>
