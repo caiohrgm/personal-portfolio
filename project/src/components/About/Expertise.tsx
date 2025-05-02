@@ -8,10 +8,10 @@ export default function Expertise() {
         <div className="bg-white p-6  shadow-lg border-r border-light-purple-100">
           {/* ABOUT ME LABEL WITH LINE */}
           <div className="flex flex-col items-start mb-6">
-            <h2 className="text-sm font-bold text-mint-300 text-stroke-purple">
+            <h2 className="text-sm font-bold text-mint-medium opacity-60">
               About Me
             </h2>
-            <div className="w-full h-px bg-mint-300 mt-2"></div>
+            <div className="w-full h-px bg-mint-medium opacity-40 mt-2"></div>
           </div>
 
           <h2 className="text-3xl font-bold text-light-purple-300">
@@ -57,7 +57,7 @@ export default function Expertise() {
               <p className="text-sm text-light-purple-300">
                 SENAI / Software Development
               </p>
-              <p className="text-sm text-light-purple-300">Aug/24 - current</p>
+              <p className="text-sm text-mint-medium">Aug/24 - current</p>
             </div>
 
             {/* PREVIOUS ROLE */}
@@ -69,7 +69,7 @@ export default function Expertise() {
                 Distributed System Laboratory in partnership with DELL /
                 Software Development
               </p>
-              <p className="text-sm text-light-purple-300">Oct/22 - Mar/24</p>
+              <p className="text-sm text-mint-medium">Oct/22 - Mar/24</p>
             </div>
 
             {/* MESTRADO */}
@@ -78,8 +78,9 @@ export default function Expertise() {
                 Master’s Degree candidate
               </h3>
               <p className="text-sm text-light-purple-300">
-                Universidade Federal de Campina Grande, 2023-2025.
+                Universidade Federal de Campina Grande
               </p>
+              <p className="text-sm text-mint-medium">Mar/23 - Jul/25</p>
             </div>
             {/* Education */}
             <div className="p-6 text-center">
@@ -87,8 +88,9 @@ export default function Expertise() {
                 Computer Sciente Major
               </h3>
               <p className="text-sm text-light-purple-300">
-                Universidade Federal de Campina Grande, 2022.
+                Universidade Federal de Campina Grande
               </p>
+              <p className="text-sm text-mint-medium">Feb/19 - Oct/22</p>
             </div>
 
             {/* BOTTOM ROLES (SIDE-BY-SIDE) */}
