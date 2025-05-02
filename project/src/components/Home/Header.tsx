@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import github_logo from "../../assets/home_images/github_white_logo.png";
 import linkedin_logo from "../../assets/home_images/linkedin_white_logo.png";
 
+
 export default function Header() {
   console.log(github_logo);
   return (
@@ -21,7 +22,7 @@ export default function Header() {
               Projects
             </span>
           </Link>
-        
+
           <Link to="/skills" className="hover:text-mint-300">
             Skills
           </Link>
@@ -92,3 +93,4 @@ export default function Header() {
     </header>
   );
 }
+

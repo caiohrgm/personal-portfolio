@@ -18,6 +18,7 @@ export default function Expertise() {
             Expertise
           </h2>
           <p className="mt-4 text-lg font-raleway-100 text-dark-purple-900 text-justify">
+
             With a strong foundation in software development and a passion for
             solving real-world problems, I’ve worked across both academic and
             industry settings. From distributed systems to AI research, my
@@ -28,6 +29,7 @@ export default function Expertise() {
             From Teaching to Tech
           </h3>
           <p className="text-sm font-raleway-100 text-dark-purple-900 text-justify">
+
             My journey began as an English teacher, where I developed strong
             communication and analytical thinking skills. These abilities proved
             incredibly valuable when I transitioned into programming — helping
@@ -38,6 +40,7 @@ export default function Expertise() {
             Bridging Academia and Practice
           </h3>
           <p className="text-sm font-raleway-100 text-dark-purple-900 text-justify">
+
             Pursuing a Master's Degree has allowed me to combine theoretical
             research with practical development. From building AI systems to
             working with data-driven projects in partnership with private
@@ -107,6 +110,7 @@ export default function Expertise() {
               <div className="sm:w-1/2 sm:text-right">
                 <p className="text-md text-mint-medium font-ibm-mono">2019 - 2022</p>
               </div>
+
             </div>
 
             {/* BOTTOM ROLES (SIDE-BY-SIDE) */}
@@ -131,6 +135,7 @@ export default function Expertise() {
                 </p>
                 <p className="text-sm text-mint-medium font-ibm-mono">
                  Big Data & Data Analysis
+
                 </p>
               </div>
             </div>
