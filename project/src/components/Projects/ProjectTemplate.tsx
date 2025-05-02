@@ -22,10 +22,12 @@ export default function ProjectTemplate() {
   const [data, setData] = useState<ProjectData | null>(null);
 
   useEffect(() => {
-    import(`../../data/${projectId}.json`)
+    console.log("Tentando carregar:", `../data/${projectId}.json`);
+    import(`./Data/projectsData/${projectId}.json`)
       .then((module) => setData(module.default))
       .catch((err) => {
         console.error("Erro ao carregar dados do projeto:", err);
+        console.error("projectId:", projectId);
         alert("Erro ao carregar projeto: " + projectId);
       });
   }, [projectId]);
@@ -41,12 +43,16 @@ export default function ProjectTemplate() {
     return entry?.[1];
   };
 
-  console.log(data.images[0]);
-
   return (
-    <section className="bg-white text-gray-800 py-6 mt-16">
+    <section className="bg-white text-gray-800 py-6 mt-16 rounded-b-lg">
       <div className="max-w-6xl mx-auto px-4 sm:px-8">
         <div className="flex flex-col items-start mb-6">
+          <button
+            onClick={() => window.history.back()}
+            className="text-sm text-light-purple-300 hover:underline mb-4"
+          >
+            ← Back to Projects
+          </button>
           <h2 className="text-sm font-bold text-zinc-700 opacity-25">
             {data.projectName}
           </h2>
@@ -58,7 +64,8 @@ export default function ProjectTemplate() {
             <h2 className="text-sm font-semibold text-gray-400 tracking-wider uppercase mb-2">
               {data.industry}
             </h2>
-            <h1 className="text-4xl font-bold text-dark-blue-900 mb-4">
+            <h1 className="text-4xl font-bold text-light-purple-300 mb-4">
+
               {data.companyName}
             </h1>
             <p className="text-gray-600">{data.description}</p>
@@ -77,7 +84,8 @@ export default function ProjectTemplate() {
           <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase mb-2">
             My Role
           </h3>
-          <h2 className="text-2xl font-bold text-dark-blue-900 mb-2">
+          <h2 className="text-2xl font-bold text-light-purple-300 mb-2">
+
             {data.roleTitle}
           </h2>
           <p className="text-gray-600 mb-8">{data.roleDescription}</p>
@@ -109,7 +117,8 @@ export default function ProjectTemplate() {
           </div>
 
           <footer className="mt-16 text-sm text-gray-400 border-t pt-4">
-            Seu Nome | Product Design Portfolio | Maio/2025
+            © 2025 Caio Medeiros. All rights reserved.
+
           </footer>
         </div>
       </div>

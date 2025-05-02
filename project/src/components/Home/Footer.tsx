@@ -1,7 +1,8 @@
 import senai_logo from "../../assets/home_images/logo_nova_senai_solucoes_digitais.png";
-import pactomais_logo from "../../assets/home_images/logo_pacto_white.png";
-import lsd_logo from "../../assets/home_images/lsd_02.png";
-import dell_logo from "../../assets/home_images/dell_reviewd_logo.png";
+import pactomais_logo from "../../assets/home_images/pacto_mais_logo.png";
+import lsd_logo from "../../assets/home_images/lsd_logo.png";
+import dell_logo from "../../assets/home_images/dell_logo.png";
+
 
 export default function Footer() {
   return (
