@@ -88,9 +88,12 @@ export default function Expertise() {
                 Computer Sciente Major
               </h3>
               <p className="text-sm text-light-purple-300">
+
                 Universidade Federal de Campina Grande
               </p>
               <p className="text-sm text-mint-medium">Feb/19 - Oct/22</p>
+
+
             </div>
 
             {/* BOTTOM ROLES (SIDE-BY-SIDE) */}
