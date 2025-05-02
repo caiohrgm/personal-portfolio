@@ -1,7 +1,7 @@
-import playing_videogame_img from "../../assets/play_game_purple.png";
-import couple_having_dinner from "../../assets/dinner_purple.jpg";
-import couple_watching_movie from "../../assets/COUPLW_WATCHING_MOVIE_PURPLE.png";
-import study_biology from "../../assets/microscope_purple_virus.png";
+import playing_videogame_img from "../../assets/about_images/play_game_purple.png";
+import couple_having_dinner from "../../assets/about_images/dinner_purple.jpg";
+import couple_watching_movie from "../../assets/about_images/couple_movie.png";
+import study_biology from "../../assets/about_images/microscope_purple_virus.png";
 
 export default function OutOfWork() {
   return (
