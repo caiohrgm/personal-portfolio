@@ -16,41 +16,12 @@ export default function Header() {
             About Me
           </Link>
 
-          <li className="relative group list-none">
+          <Link to="/projects" className="hover:text-mint-300">
             <span className="cursor-pointer text-soft-aqua-300 hover:text-mint-300">
               Projects
             </span>
-            <div className="absolute left-0 mt-2 bg-light-purple-300 border p-4 rounded-lg opacity-0 group-hover:opacity-100 group-hover:block transition-all duration-300">
-              <ul>
-                <li>
-                  <Link
-                    to="/projects/application-intelligence"
-                    className="block text-vanilla-gray-300 hover:text-mint-300 py-2"
-                  >
-                    Application Intelligence
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/projects/app-firma-facil"
-                    className="block text-vanilla-gray-300 hover:text-mint-300 py-2"
-                  >
-                    App Firma Fácil
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/projects/big-data"
-                    className="block text-vanilla-gray-300 hover:text-mint-300"
-                  >
-                    Big Data
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </li>
-
-          
+          </Link>
+        
           <Link to="/skills" className="hover:text-mint-300">
             Skills
           </Link>
