@@ -1,20 +1,23 @@
 {
   "projectName": "App FirmaFácil",  
   "companyName": "PactoMais",
-    "industry": "Tecnologia",
-    "description": "Trabalhei com predição em ambientes distribuídos, focando em séries temporais.",
-    "roleTitle": "Data Scientist",
-    "roleDescription": "Responsável por criar modelos preditivos e pipelines de dados.",
-    "images": ["grafico1.png", "pipeline_diagrama.png"],
-    "additionalRoles": [
-      {
-        "title": "ML Engineer",
-        "text": "Desenvolvi pipelines com Airflow e monitoramento com MLflow."
-      },
-      {
-        "title": "Backend Developer",
-        "text": "Criação de APIs com FastAPI e integração com PostgreSQL."
-      }
-    ]
-  }
-  
+  "industry": "Technology",
+  "description": "Collaboration between the Computer Perception Lab (LPC) at UFCG and PactoMais to develop AI-driven document and facial authentication tools for pharmacy management systems.",
+  "roleTitle": "Undergraduate Researcher",
+  "roleDescription": "Conducted tests and benchmarking for signature verification services, implemented and evaluated open-source document rectifiers, and integrated facial recognition services into a mobile application.",
+  "images": ["signature_metrics.png", "document_cropper_example.png"],
+  "additionalRoles": [
+    {
+      "title": "Computer Vision Developer",
+      "text": "Developed and tested an open-source image rectifier using Python and OpenCV to automatically detect and crop documents from mobile images."
+    },
+    {
+      "title": "Mobile Integration Engineer",
+      "text": "Integrated a facial recognition microservice (developed in Java) with the Android-based FirmaFácil mobile app using Android Studio and JavaScript."
+    },
+    {
+      "title": "AI Validation Analyst",
+      "text": "Tested and measured the performance of the Revai signature comparison service, ensuring the reliability of the authentication process."
+    }
+  ]
+}
