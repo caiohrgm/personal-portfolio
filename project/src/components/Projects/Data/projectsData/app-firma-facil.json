@@ -1,5 +1,6 @@
 {
   "projectName": "App FirmaFácil",
+  "summary": "Biometric data recognition microservices, such as facial and signature recognition, for automating pharmacy workflows, ",
   "companyName": "PactoMais",
   "industry": "Technology",
   "description": "This project was a partnership between the Federal University of Campina Grande and PactoMais, a tech company based in João Pessoa, PB, that develops digital solutions for pharmacies. Their main product leverages microservices with computer vision—such as signature and receipt recognition—to automate internal workflows and audit processes, including tasks related to Brazil's national 'Farmácia Popular' healthcare program.",
