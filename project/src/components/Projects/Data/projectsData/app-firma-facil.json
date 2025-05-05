@@ -1,21 +1,23 @@
 {
-    "projectName": "App FirmaFácil",  
-    "summary": "Mobile application for easy signature, facial and fingerprint recognition.",
-    "companyName": "PactoMais",
-      "industry": "Tecnologia",
-      "description": "Trabalhei com predição em ambientes distribuídos, focando em séries temporais.",
-      "roleTitle": "Data Scientist",
-      "roleDescription": "Responsável por criar modelos preditivos e pipelines de dados.",
-      "images": ["grafico1.png", "pipeline_diagrama.png"],
-      "additionalRoles": [
-        {
-          "title": "ML Engineer",
-          "text": "Desenvolvi pipelines com Airflow e monitoramento com MLflow."
-        },
-        {
-          "title": "Backend Developer",
-          "text": "Criação de APIs com FastAPI e integração com PostgreSQL."
-        }
-      ]
+  "projectName": "App FirmaFácil",
+  "companyName": "PactoMais",
+  "industry": "Technology",
+  "description": "This project was a partnership between the Federal University of Campina Grande and PactoMais, a tech company based in João Pessoa, PB, that develops digital solutions for pharmacies. Their main product leverages microservices with computer vision—such as signature and receipt recognition—to automate internal workflows and audit processes, including tasks related to Brazil's national 'Farmácia Popular' healthcare program.",
+  "roleTitle": "Researcher & Full Stack Developer",
+  "roleDescription": "I contributed as a researcher and developer over a 6-month period during my undergraduate studies. I worked on model evaluation, image preprocessing research, and microservice integration.",
+  "images": ["signature_comparison.png", "rectification_example.png", "facial_recognition_ui.png"],
+  "additionalRoles": [
+    {
+      "title": "AI Researcher",
+      "text": "Evaluated a signature comparison service using accuracy metrics and researched state-of-the-art image rectification methods for document preprocessing."
+    },
+    {
+      "title": "Computer Vision Engineer",
+      "text": "Implemented and tested open-source image rectification algorithms, optimizing them for mobile document capture scenarios."
+    },
+    {
+      "title": "Backend & Mobile Developer",
+      "text": "Integrated a facial recognition microservice into the FirmaFácil app using React Native (frontend) and Java (backend server) for feature deployment and validation."
     }
-    
+  ]
+}
