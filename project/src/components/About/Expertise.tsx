@@ -1,11 +1,13 @@
 export default function Expertise() {
   return (
-    <div className="relative">
+    <div className="relative mt-[-20px] sm:mt-[-30px] md:mt-[-40px] lg:mt-[-60px]">
       {/* CONNECTING BAR */}
       <div className="hidden md:block absolute left-1/2 top-0 h-full w-1 bg-light-purple-100 transform -translate-x-1/2 z-0" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 relative z-10">
         {/* LEFT SIDE */}
-        <div className="bg-white p-6  shadow-lg border-r border-light-purple-100">
+        <div className="bg-white p-6 shadow-lg border-r border-light-purple-100 rounded-tl-lg">
+
+
           {/* ABOUT ME LABEL WITH LINE */}
           <div className="flex flex-col items-start mb-6">
             <h2 className="text-sm font-bold font-ibm-mono text-zinc-700 opacity-35">
@@ -50,7 +52,7 @@ export default function Expertise() {
         </div>
 
         {/* RIGHT SIDE: CONNECTED STACKED BLOCKS */}
-        <div className="bg-[#F6F8F9]  shadow-lg overflow-hidden border-l border-light-purple-100">
+        <div className="bg-[#F6F8F9]  shadow-lg overflow-hidden border-l border-light-purple-100 rounded-tr-lg">
           <div className="divide-y divide-gray-300">
             {/* CURRENT ROLE */}
             <div className="p-6 text-center flex flex-col sm:flex-row sm:items-center">

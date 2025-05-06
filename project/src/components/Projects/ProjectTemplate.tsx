@@ -70,11 +70,11 @@ export default function ProjectTemplate() {
             </h1>
             <p className="text-gray-600">{data.description}</p>
           </div>
-          <div className="bg-gray-200 flex items-center justify-center rounded-md w-64 h-auto mx-auto">
+          <div className="w-full max-w-md aspect-video bg-white rounded-md overflow-hidden mx-auto flex items-center justify-center">
             <img
               src={getImageSrc(data.images[0])}
-              alt="time-series-forecast"
-              className="h-full object-contain rounded-md"
+              alt="project-cover"
+              className="max-w-full max-h-full object-contain"
             />
           </div>
         </div>

@@ -1,21 +1,24 @@
 {
-    "projectName": "Big Data",    
-    "summary": "Research and Analysis of client´s customers data.",
-    "companyName": "Siteware",
-      "industry": "Tecnologia",
-      "description": "Atuei predição em ambientes distribuídos, focando em séries temporais.",
-      "roleTitle": "Data Scientist",
-      "roleDescription": "Responsável por criar modelos preditivos e pipelines de dados.",
-      "images": ["grafico1.png", "pipeline_diagrama.png"],
-      "additionalRoles": [
-        {
-          "title": "ML Engineer",
-          "text": "Desenvolvi pipelines com Airflow e monitoramento com MLflow."
-        },
-        {
-          "title": "Backend Developer",
-          "text": "Criação de APIs com FastAPI e integração com PostgreSQL."
-        }
-      ]
+  "projectName": "Time Series Forecasting and KPI Analysis for Big Data Consulting",
+  "summary": "Collaborative research project focused on analyzing and forecasting client performance indicators using time series models and Python-based data tools.",
+  "companyName": "Siteware",
+  "industry": "Technology",
+  "description": "This project was a partnership between the SPLab research group at the Universidade Federal de Campina Grande and Siteware, a Brazilian consulting company specializing in Big Data. The project aimed to analyze and model performance indicators from Siteware's clients to extract insights and support decision-making.",
+  "roleTitle": "Undergraduate Research Assistant",
+  "roleDescription": "Contributed to data analysis tasks by supporting graduate students and researchers. Participated in time series modeling, visualizations, and reporting over 8 months on a 20-hour weekly basis.",
+  "images": ["grafico1.png", "pipeline_diagrama.png"],
+  "additionalRoles": [
+    {
+      "title": "Time Series Researcher",
+      "text": "Explored and tested forecasting models for time series data using libraries such as Prophet, statsmodels, and scikit-learn."
+    },
+    {
+      "title": "Data Visualization Assistant",
+      "text": "Helped create data visualizations to support the interpretation and presentation of client KPIs."
+    },
+    {
+      "title": "Reporting Contributor",
+      "text": "Assisted in preparing bi-weekly presentation materials to communicate project results to the Siteware team."
     }
-    
+  ]
+}

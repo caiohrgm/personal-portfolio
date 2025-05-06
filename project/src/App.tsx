@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import ProjectTemplate from "./components/Projects/ProjectTemplate";
+import Contact from "./pages/Contact";
 
 
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
         <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects />} />
         <Route path="/projects/:projectId" element={<ProjectTemplate />} />
-
+        <Route path="/contact" element={<Contact />} />
       </Route>
     </Routes>
   );
