@@ -6,7 +6,7 @@
   "description": "This project was a partnership between the SPLab research group at the Universidade Federal de Campina Grande and Siteware, a Brazilian consulting company specializing in Big Data. The project aimed to analyze and model performance indicators from Siteware's clients to extract insights and support decision-making.",
   "roleTitle": "Undergraduate Research Assistant",
   "roleDescription": "Contributed to data analysis tasks by supporting graduate students and researchers. Participated in time series modeling, visualizations, and reporting over 8 months on a 20-hour weekly basis.",
-  "images": ["grafico1.png", "pipeline_diagrama.png"],
+  "images": ["indicators.jpg", "time-series-plots.png", "data-viz.png"],
   "additionalRoles": [
     {
       "title": "Time Series Researcher",
