@@ -28,12 +28,12 @@ export default function ListOfProjects() {
             <div
               key={slug}
               className="bg-white text-light-purple-300 border border-light-purple-300 p-6 rounded-lg 
-                flex flex-col justify-between flex-shrink-0 w-full max-w-xs sm:max-w-sm h-[320px] snap-center"
+                flex flex-col justify-between flex-shrink-0 w-full max-w-xs sm:max-w-sm min-h-[320px] snap-center"
             >
               <h2 className="text-lg font-raleway-700 text-light-purple-300">
                 {project.title}
               </h2>
-              <p className="text-dark-purple-900 mt-2 font-raleway-100">
+              <p className="text-dark-purple-900 mt-2 font-raleway-100 flex-grow">
                 {project.description}
               </p>
               <Link to={`/projects/${slug}`}>
@@ -54,13 +54,12 @@ export default function ListOfProjects() {
               <div
                 key={slug}
                 className="bg-white text-light-purple-300 border border-light-purple-300 p-6 rounded-lg 
-                  flex flex-col justify-between flex-shrink-0 w-full max-w-xs md:max-w-md 
-                  h-[320px] snap-center"
+                  flex flex-col justify-between flex-shrink-0 w-full max-w-xs md:max-w-md min-h-[320px] snap-center"
               >
                 <h2 className="text-lg font-raleway-700 text-light-purple-300">
                   {project.title}
                 </h2>
-                <p className="text-dark-purple-900 mt-2 font-raleway-100">
+                <p className="text-dark-purple-900 mt-2 font-raleway-100 flex-grow">
                   {project.description}
                 </p>
                 <Link to={`/projects/${slug}`}>
@@ -79,12 +78,12 @@ export default function ListOfProjects() {
               <div
                 key={slug}
                 className="bg-white text-light-purple-300 border border-light-purple-300 p-6 rounded-lg 
-                  flex flex-col justify-between w-full sm:w-[45%] md:w-[30%] h-[320px]"
+                  flex flex-col justify-between w-full sm:w-[45%] md:w-[30%] min-h-[320px]"
               >
                 <h2 className="text-lg font-raleway-700 text-light-purple-300">
                   {project.title}
                 </h2>
-                <p className="text-dark-purple-900 mt-2 font-raleway-100">
+                <p className="text-dark-purple-900 mt-2 font-raleway-100 flex-grow">
                   {project.description}
                 </p>
                 <Link to={`/projects/${slug}`}>
