@@ -6,8 +6,6 @@ export default function Expertise() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 relative z-10">
         {/* LEFT SIDE */}
         <div className="bg-white p-6 shadow-lg border-r border-light-purple-100 rounded-tl-lg">
-
-
           {/* ABOUT ME LABEL WITH LINE */}
           <div className="flex flex-col items-start mb-6">
             <h2 className="text-sm font-bold font-ibm-mono text-zinc-700 opacity-35">

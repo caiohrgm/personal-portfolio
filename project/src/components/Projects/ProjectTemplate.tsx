@@ -49,7 +49,7 @@ export default function ProjectTemplate() {
         <div className="flex flex-col items-start mb-6">
           <button
             onClick={() => window.history.back()}
-            className="text-sm text-light-purple-300 hover:underline mb-4"
+            className="text-sm text-light-purple-300 hover:underline mb-4 cursor-pointer"
           >
             ← Back to Projects
           </button>

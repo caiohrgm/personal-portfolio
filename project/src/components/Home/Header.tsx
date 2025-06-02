@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import github_logo from "../../assets/home_images/github_white_logo.png";
 import linkedin_logo from "../../assets/home_images/linkedin_white_logo.png";
-import company_logo from "../../assets/logo/logo_03.png";
+import company_logo from "../../assets/logo/logo-reviewed.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +17,7 @@ export default function Header() {
           
           {/* Nome */}
           <div className="text-vanilla-gray-300 font-bold text-xl font-mono">
-            Caio Medeiros
+            CM Technology
           </div>
         </div>
 
@@ -28,6 +28,7 @@ export default function Header() {
             <Link to="/" className="hover:text-mint-300">Home</Link>
             <Link to="/about" className="hover:text-mint-300">About Me</Link>
             <Link to="/projects" className="hover:text-mint-300">Projects</Link>
+            <Link to="/skills" className="hover:text-mint-300">Skills</Link>
             <Link to="/contact" className="hover:text-mint-300">Contact</Link>
           </nav>
 

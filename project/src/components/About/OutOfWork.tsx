@@ -29,6 +29,9 @@ export default function OutOfWork() {
             dinner with my wife, watching movies together — just enjoying her
             company. I also enjoy playing video games with some online friends.
           </p>
+          <footer className="mt-16 text-sm text-gray-400 border-t pt-4">
+            © 2025 Caio Medeiros. All rights reserved.
+          </footer>
         </div>
 
         {/* Right side: Hobby images in 4 blocks */}
