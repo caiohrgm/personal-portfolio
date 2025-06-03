@@ -1,0 +1,104 @@
+{
+  "contact": {
+    "title": "Contato",
+    "phone": "Telefone",
+    "email": "E-mail",
+    "footer": "© 2025 Caio Medeiros. Todos os direitos reservados."
+  },
+  "home-header": {
+    "nav-bar-home": "Home",
+    "nav-bar-about": "Sobre mim",
+    "nav-bar-projects": "Projetos",
+    "nav-bar-skills": "Competências",
+    "nav-bar-contact": "Contato"
+  },
+  "home-hero": {
+    "description":"Engenheiro de Software e Cientista de Dados, especializado em back-end, análise de dados e Projetos de P&D.",
+    "lets_start": "Vamos começar"
+  },
+  "home-footer": {
+    "worked_with": "Trabalhei com"
+  },
+  "aboutMe": {
+  "sectionTitle": "Sobre Mim",
+  "expertiseTitle": "Especialidade",
+  "expertiseParagraph": "Com uma base sólida em desenvolvimento de software e uma paixão por resolver problemas do mundo real, atuei tanto em ambientes acadêmicos quanto industriais. Desde sistemas distribuídos até pesquisas em IA, minha trajetória foi moldada por aprendizado contínuo, colaboração e pelo desejo de tornar a tecnologia mais significativa e acessível.",
+  "teachingToTechTitle": "Do Ensino à Tecnologia",
+  "teachingToTechParagraph": "Minha jornada começou como professor de inglês, onde desenvolvi fortes habilidades de comunicação e pensamento analítico. Essas habilidades se mostraram extremamente valiosas quando migrei para a programação — ajudando-me a ler, interpretar e escrever código limpo, colaborando com equipes diversas.",
+  "academiaAndPracticeTitle": "Unindo Academia e Prática",
+  "academiaAndPracticeParagraph": "Cursar o mestrado me permitiu combinar pesquisa teórica com desenvolvimento prático. De construir sistemas de IA a trabalhar com projetos orientados a dados em parceria com empresas privadas, adquiri experiência ao longo de todo o ciclo de inovação."
+},
+"timeline": [
+  {
+    "role": "Engenheiro de Software",
+    "organization": "SENAI",
+    "date": "2024 - atualmente"
+  },
+  {
+    "role": "Desenvolvedor de Software",
+    "organization": "Laboratório de Sistemas Distribuídos em parceria com a DELL",
+    "date": "2022 - 2024"
+  },
+  {
+    "role": "Mestrando",
+    "organization": "Universidade Federal de Campina Grande",
+    "date": "2023 - atual"
+  },
+  {
+    "role": "Bacharelado em Ciência da Computação",
+    "organization": "Universidade Federal de Campina Grande",
+    "date": "2019 - 2022"
+  },
+  {
+    "role": "Desenvolvedor & Pesquisador",
+    "organization": "LPC em parceria com a Pactomais",
+    "specialization": "IA e Visão Computacional"
+  },
+  {
+    "role": "Desenvolvedor & Pesquisador",
+    "organization": "SPLab em parceria com a Siteware",
+    "specialization": "Big Data e Análise de Dados"
+  }
+],
+"outOfWork": {
+  "sectionTitle": "Quem é Caio fora do trabalho",
+  "paragraph1": "Curiosidade: também sou formado em Ciências Biológicas. Sempre adorei estudar a natureza. Inclusive, fiz um intercâmbio de 6 meses e estagiei no Greenpeace em Vancouver, no Canadá. Gosto muito de aprender novos idiomas e conhecer outras culturas.",
+  "paragraph2": "No meu tempo livre, costumo passar tempo com a família e sair para jantar com minha esposa, assistir filmes com ela — simplesmente curtindo sua companhia. Também gosto de jogar videogame com alguns amigos online."
+},
+"footer": "© 2025 Caio Medeiros. Todos os direitos reservados.",
+"projectsSection": {
+    "label": "Projetos",
+    "title": "Portfólio Pessoal",
+    "description": "Aqui estão alguns estudos de caso que mostram meu trabalho, destacando as tecnologias e abordagens que usei para resolver problemas do mundo real.",
+    "readMore": "Saiba mais"
+  },
+  "skillsSection": {
+      "title": "Competências",
+      "technicalSkillsTitle": "Habilidades Técnicas",
+      "technicalSkillsDescription": "Ao longo da minha trajetória profissional, desenvolvi habilidades em diversas linguagens de programação, frameworks backend, práticas modernas de controle de versão e deploy, além de experiência com algumas ferramentas de containerização.",
+      "programmingLanguagesTitle": "Linguagens de Programação",
+      "versionControlTitle": "Controle de Versão",
+      "versionControlTools": [
+        "Git / GitHub / GitLab",
+        "Docker Hub"
+      ],
+      "databasesAndToolsTitle": "Bancos de Dados e Outras Ferramentas",
+      "databasesAndTools": [
+        "PostgreSQL, MySQL, MongoDB",
+        "Jupyter Notebook, VS Code",
+        "Tensorflow, MLFlow",
+        "Windows, Linux",
+        "Microsoft Office 365"
+      ],
+      "softSkillsTitle": "Habilidades Interpessoais",
+      "softSkills": [
+        "Comunicação clara e objetiva",
+        "Organização e trabalho em equipe",
+        "Fluência em inglês",
+        "Forte capacidade de resolução de problemas",
+        "Pensamento analítico",
+        "Facilidade em comunicar e interagir com os outros"
+      ],
+      "footer": "© 2025 Caio Medeiros. Todos os direitos reservados."
+    }
+}

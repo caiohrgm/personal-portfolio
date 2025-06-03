@@ -1,0 +1,121 @@
+{
+  "contact": {
+    "title": "Contact Me",
+    "phone": "Phone",
+    "email": "E-mail",
+    "footer": "© 2025 Caio Medeiros. All rights reserved."
+  },
+  "home-header": {
+    "nav-bar-home": "Home",
+    "nav-bar-about": "About Me",
+    "nav-bar-projects": "Projects",
+    "nav-bar-skills": "Skills",
+    "nav-bar-contact": "Contact"
+  },
+  "home-hero": {
+    "description": "Software Engineer and Data Scientist, specialized in back-end, dataanalysis and R&D Projects.",
+    "worked_with": "Let´s get started"
+  },
+  "home-footer": {
+    "worked_with": "Worked with"
+  },
+  "aboutMe": {
+    "sectionTitle": "About Me",
+    "expertiseTitle": "Expertise",
+    "expertiseParagraph": "With a strong foundation in software development and a passion for solving real-world problems, I’ve worked across both academic and industry settings. From distributed systems to AI research, my journey has been shaped by continuous learning, collaboration, and the desire to make technology more meaningful and accessible.",
+    "teachingToTechTitle": "From Teaching to Tech",
+    "teachingToTechParagraph": "My journey began as an English teacher, where I developed strong communication and analytical thinking skills. These abilities proved incredibly valuable when I transitioned into programming — helping me read, interpret, and write clean code while collaborating with diverse teams.",
+    "academiaAndPracticeTitle": "Bridging Academia and Practice",
+    "academiaAndPracticeParagraph": "Pursuing a Master's Degree has allowed me to combine theoretical research with practical development. From building AI systems to working with data-driven projects in partnership with private companies, I’ve gained experience across the full lifecycle of innovation."
+  },
+  "timeline": [
+    {
+      "role": "Software Engineer",
+      "organization": "SENAI",
+      "date": "2024 - current"
+    },
+    {
+      "role": "Software Developer",
+      "organization": "Distributed System Laboratory in partnership with DELL",
+      "date": "2022 - 2024"
+    },
+    {
+      "role": "Master’s Degree candidate",
+      "organization": "Universidade Federal de Campina Grande",
+      "date": "2023 - current"
+    },
+    {
+      "role": "Computer Science Major",
+      "organization": "Universidade Federal de Campina Grande",
+      "date": "2019 - 2022"
+    },
+    {
+      "role": "Developer & Researcher",
+      "organization": "LPC in partnership with Pactomais",
+      "specialization": "AI & Computer Vision"
+    },
+    {
+      "role": "Developer & Researcher",
+      "organization": "SPLab in partnership with Siteware",
+      "specialization": "Big Data & Data Analysis"
+    }
+  ],
+  "outOfWork": {
+    "sectionTitle": "Who's Caio outside of work",
+    "paragraph1": "Fun fact: I have also a degree in Biological Sciences. I loved studying the nature. I even interned at Greenpeace in Vancouver, Canada, during a 6-months exchange program. I really enjoy learning languages and discovering new cultures.",
+    "paragraph2": "In my free time, I usually hang out with my family and go out for dinner with my wife, watching movies together — just enjoying her company. I also enjoy playing video games with some online friends."
+  },
+  "footer": "© 2025 Caio Medeiros. All rights reserved.",
+  "projectsSection": {
+  "label": "Projects",
+  "title": "Personal Portfolio",
+  "description": "Here are some case studies showcasing my work, highlighting the technologies and approaches I used to solve real-world problems.",
+  "readMore": "Read More"
+  },
+  "skillsSection": {
+      "title": "Skills",
+      "technicalSkillsTitle": "Technical Skills",
+      "technicalSkillsDescription": "Throughout my professional journey, I have developed skills in various programming languages, backend frameworks, modern version control and deployment practices, as well as experience with some containerization tools.",
+      "programmingLanguagesTitle": "Programming Languages",
+      "programmingLanguages": [
+        "Python",
+        "JavaScript / TypeScript",
+        "Java"
+      ],
+      "frameworksTitle": "Frameworks",
+      "frameworks": [
+        "Django",
+        "NestJS",
+        "Node.js / Express"
+      ],
+      "deployTitle": "Deploy",
+      "deployTools": [
+        "Docker",
+        "Heroku",
+        "Vercel"
+      ],
+      "versionControlTitle": "Version Control",
+      "versionControlTools": [
+        "Git / GitHub / GitLab",
+        "Docker Hub"
+      ],
+      "databasesAndToolsTitle": "Databases & Other Tools",
+      "databasesAndTools": [
+        "PostgreSQL, MySQL, MongoDB",
+        "Jupyter Notebook, VS Code",
+        "Tensorflow, MLFlow",
+        "Windows, Linux",
+        "Microsoft Office 365"
+      ],
+      "softSkillsTitle": "Soft Skills",
+      "softSkills": [
+        "Clear and objective communication",
+        "Organization and teamwork",
+        "Fluency in English",
+        "Strong problem-solving skills",
+        "Analytical thinking",
+        "Ease in communicating and interacting with others"
+      ],
+      "footer": "© 2025 Caio Medeiros. All rights reserved."
+    }
+}

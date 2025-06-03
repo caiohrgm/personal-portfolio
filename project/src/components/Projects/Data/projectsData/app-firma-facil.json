@@ -1,24 +1,50 @@
 {
-  "projectName": "App FirmaFácil",
-  "summary": "Biometric data recognition microservices, such as facial and signature recognition, for automating pharmacy workflows, ",
-  "companyName": "PactoMais",
-  "industry": "Technology",
-  "description": "This project was a partnership between the Universidade Federal de Campina Grande and PactoMais, a tech company based in João Pessoa, PB, that develops digital solutions for pharmacies. Their main product leverages microservices with computer vision—such as signature and receipt recognition—to automate internal workflows and audit processes, including tasks related to Brazil's national 'Farmácia Popular' healthcare program.",
-  "roleTitle": "Researcher & Full Stack Developer",
-  "roleDescription": "I contributed as a researcher and developer over a 6-month period during my undergraduate studies. I worked on model evaluation, image preprocessing research, and microservice integration.",
-  "images": ["farmacia-popular.png", "signature-recognition.png", "rectification-image.png"],
-  "additionalRoles": [
-    {
-      "title": "AI Researcher",
-      "text": "Evaluated a signature comparison service using accuracy metrics and researched state-of-the-art image rectification methods for document preprocessing."
-    },
-    {
-      "title": "Computer Vision Engineer",
-      "text": "Implemented and tested open-source image rectification algorithms, optimizing them for mobile document capture scenarios."
-    },
-    {
-      "title": "Backend & Mobile Developer",
-      "text": "Integrated a facial recognition microservice into the FirmaFácil app using React Native (frontend) and Java (backend server) for feature deployment and validation."
-    }
-  ]
+  "en": {
+    "projectName": "App FirmaFácil",
+    "summary": "Biometric data recognition microservices, such as facial and signature recognition, for automating pharmacy workflows.",
+    "companyName": "PactoMais",
+    "industry": "Technology",
+    "description": "This project was a partnership between the Universidade Federal de Campina Grande and PactoMais, a tech company based in João Pessoa, PB, that develops digital solutions for pharmacies. Their main product leverages microservices with computer vision—such as signature and receipt recognition—to automate internal workflows and audit processes, including tasks related to Brazil's national 'Farmácia Popular' healthcare program.",
+    "roleTitle": "Researcher & Full Stack Developer",
+    "roleDescription": "I contributed as a researcher and developer over a 6-month period during my undergraduate studies. I worked on model evaluation, image preprocessing research, and microservice integration.",
+    "images": ["farmacia-popular.png", "signature-recognition.png", "rectification-image.png"],
+    "additionalRoles": [
+      {
+        "title": "AI Researcher",
+        "text": "Evaluated a signature comparison service using accuracy metrics and researched state-of-the-art image rectification methods for document preprocessing."
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "text": "Implemented and tested open-source image rectification algorithms, optimizing them for mobile document capture scenarios."
+      },
+      {
+        "title": "Backend & Mobile Developer",
+        "text": "Integrated a facial recognition microservice into the FirmaFácil app using React Native (frontend) and Java (backend server) for feature deployment and validation."
+      }
+    ]
+  },
+  "pt": {
+    "projectName": "App FirmaFácil",
+    "summary": "Microsserviços de reconhecimento biométrico, como reconhecimento facial e de assinaturas, para automatizar fluxos de trabalho em farmácias.",
+    "companyName": "PactoMais",
+    "industry": "Tecnologia",
+    "description": "Este projeto foi uma parceria entre a Universidade Federal de Campina Grande e a PactoMais, uma empresa de tecnologia sediada em João Pessoa-PB, que desenvolve soluções digitais para farmácias. Seu principal produto utiliza microsserviços com visão computacional — como reconhecimento de assinaturas e comprovantes — para automatizar fluxos internos e processos de auditoria, incluindo tarefas relacionadas ao programa nacional Farmácia Popular.",
+    "roleTitle": "Pesquisador e Desenvolvedor Full Stack",
+    "roleDescription": "Atuei como pesquisador e desenvolvedor durante 6 meses da graduação. Trabalhei com avaliação de modelos, pesquisa sobre pré-processamento de imagens e integração de microsserviços.",
+    "images": ["farmacia-popular.png", "signature-recognition.png", "rectification-image.png"],
+    "additionalRoles": [
+      {
+        "title": "Pesquisador em IA",
+        "text": "Avaliei um serviço de comparação de assinaturas usando métricas de acurácia e pesquisei métodos de retificação de imagens para pré-processamento de documentos."
+      },
+      {
+        "title": "Engenheiro de Visão Computacional",
+        "text": "Implementei e testei algoritmos open-source de retificação de imagens, otimizando-os para cenários de captura de documentos por celular."
+      },
+      {
+        "title": "Desenvolvedor Backend e Mobile",
+        "text": "Integrei um microsserviço de reconhecimento facial ao app FirmaFácil utilizando React Native (frontend) e Java (backend), com foco em validação e entrega de funcionalidades."
+      }
+    ]
+  }
 }

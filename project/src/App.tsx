@@ -7,7 +7,6 @@ import ProjectTemplate from "./components/Projects/ProjectTemplate";
 import Skills from "./pages/Skills"
 import Contact from "./pages/Contact";
 
-
 export default function App() {
   return (
     <Routes>
@@ -15,9 +14,9 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="/projects/:projectId" element={<ProjectTemplate />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="projects/:projectId" element={<ProjectTemplate />} />
+        <Route path="skills" element={<Skills />} />
+        <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>
   );

@@ -2,14 +2,16 @@ import senai_logo from "../../assets/home_images/logo_nova_senai_solucoes_digita
 import pactomais_logo from "../../assets/home_images/pacto_mais_logo.png";
 import lsd_logo from "../../assets/home_images/lsd_logo.png";
 import dell_logo from "../../assets/home_images/dell_logo.png";
+import { useTranslation } from "react-i18next";
 
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="w-full bg-dark-purple-900">
       <div className="max-w-screen-lg mx-auto px-6 sm:px-12">
         <p className="text-vanilla-gray-300 font-mono mb-4 text-left">
-          Worked with
+          {t('home-footer.worked_with')}
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 w-full justify-items-center">
           <a

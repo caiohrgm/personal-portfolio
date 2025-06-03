@@ -1,19 +1,23 @@
+import { useTranslation } from "react-i18next";
+
+
 export default function Skills() {
+  const { t } = useTranslation();
   return (
     <section className="relative bg-white mt-[-20px] sm:mt-[-30px] md:mt-[-40px] lg:mt-[-60px] py-6 rounded-lg">
       <div className="max-w-6xl mx-auto px-4 sm:px-8">
         <div className="flex flex-col items-start mb-6">
-          <h2 className="text-sm font-bold text-zinc-700 opacity-25">Skills</h2>
+          <h2 className="text-sm font-bold text-zinc-700 opacity-25">{t("skillsSection.title")}</h2>
           <div className="w-full h-px bg-zinc-700 opacity-25 mt-2"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
           <div>
             <h1 className="text-3xl font-raleway-100 text-light-purple-300">
-              Technical Skills
+              {t("skillsSection.technicalSkillsTitle")}
             </h1>
             <p className="text-gray-600">
-              Throughout my professional journey, I have developed skills in various programming languages, backend frameworks, modern version control and deployment practices, as well as experience with some containerization tools.
+              {t("skillsSection.technicalSkillsDescription")}
             </p>
           </div>
         </div>
@@ -22,7 +26,7 @@ export default function Skills() {
           {/* Linguagens */}
           <div> 
             <h3 className="font-raleway-700 text-light-purple-300 tracking-wider uppercase mb-2">
-              Programming Language
+              {t("skillsSection.programmingLanguagesTitle")}
             </h3>
             <ul className="list-disc list-inside text-gray-600">
               <li>Python</li>
@@ -58,7 +62,7 @@ export default function Skills() {
           {/* Versionamento & DevOps */}
           <div>
             <h3 className="font-raleway-700 text-light-purple-300 tracking-wider uppercase mb-2">
-              Version Control
+              {t("skillsSection.versionControlTitle")}
             </h3>
             <ul className="list-disc list-inside text-gray-600">
               <li>Git / GitHub / GitLab</li>
@@ -69,7 +73,7 @@ export default function Skills() {
           {/* Database and Other tools */}
           <div>
             <h3 className="font-raleway-700 text-light-purple-300 tracking-wider uppercase mb-2">
-              Databases & Other Tools
+              {t("skillsSection.databasesAndToolsTitle")}
             </h3>
             <ul className="list-disc list-inside text-gray-600">
               <li>PostgreSQL, MySQL, MongoDB</li>
@@ -83,20 +87,20 @@ export default function Skills() {
           {/* Soft Skills (opcional) */}
           <div>
             <h3 className="font-raleway-700 text-light-purple-300 tracking-wider uppercase mb-2">
-              Soft Skills
+              {t("skillsSection.softSkillsTitle")}
             </h3>
             <ul className="list-disc list-inside text-gray-600">
-              <li>Clear and objective communication</li>
-              <li>Organization and teamwork</li>
-              <li>Fluency in English</li>
-              <li>Strong problem-solving skills</li>
-              <li>Analytical thinking</li>
-              <li>Ease in communicating and interacting with others</li>
+              <li>{t("skillsSection.softSkills.0")}</li>
+              <li>{t("skillsSection.softSkills.1")}</li>
+              <li>{t("skillsSection.softSkills.2")}</li>
+              <li>{t("skillsSection.softSkills.3")}</li>
+              <li>{t("skillsSection.softSkills.4")}</li>
+              <li>{t("skillsSection.softSkills.5")}</li>
             </ul>
           </div>
         </div>
         <footer className="mt-16 text-sm text-gray-400 border-t pt-4">
-          © 2025 Caio Medeiros. All rights reserved.
+         <li>{t("skillsSection.footer")}</li>
         </footer>
       </div>
     </section>

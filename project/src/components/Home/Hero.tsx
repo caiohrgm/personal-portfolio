@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import profileImage from "../../assets/home_images/profile_image.jpg";
-
+import { useTranslation } from "react-i18next";
 
 
 export default function Hero() {
+  const { t } = useTranslation();
   return (
     <section className="w-full max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-between px-6 sm:px-12 py-16 md:py-24 bg-dark-purple-900 mt-2">
       {/* Texto e Botão */}
@@ -12,8 +13,7 @@ export default function Hero() {
           Caio Medeiros
         </h1>
         <p className="text-gray-400 mt-4 font-mono text-lg">
-          Software Engineer and Data Scientist, specialized in back-end, data
-          analysis and R&D Projects.
+          {t('home-hero.description')}
         </p>
         <Link to="/about" className="inline-block mt-6">
           <button
@@ -22,7 +22,7 @@ export default function Hero() {
                             cursor-pointer border border-mint-medium hover:text-vanilla-gray-300"
 
           >
-            Let's get started
+            {t('home-hero.lets_start')}
           </button>
         </Link>
       </div>

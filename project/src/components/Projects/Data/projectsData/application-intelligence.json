@@ -1,5 +1,6 @@
-{ 
-  "projectName": "Application Intelligence",
+{
+  "en": {
+    "projectName": "Application Intelligence",
     "summary": "Micro-service focused on forecasting an observability tool usage.",
     "companyName": "DELL",
     "industry": "Technology",
@@ -25,5 +26,33 @@
         "text": "Researched, implemented, and evaluated multiple forecasting approaches, including ARIMA, SARIMA, Prophet, exponential smoothing, and recurrent neural networks (RNNs), to ensure accuracy and robustness."
       }
     ]
+  },
+  "pt": {
+    "projectName": "Application Intelligence",
+    "summary": "Microsserviço focado na previsão de uso de uma ferramenta de observabilidade.",
+    "companyName": "DELL",
+    "industry": "Tecnologia",
+    "description": "Projeto desenvolvido em parceria entre a DELL e o Laboratório de Sistemas Distribuídos (LSD) da Universidade Federal de Campina Grande, com foco na análise e previsão de uso de ferramentas de observabilidade (como o Splunk) em ambientes distribuídos. O objetivo era prever com precisão o consumo de dados (em GB) em diferentes janelas de tempo, apoiando o planejamento de custos e a otimização de recursos.",
+    "roleTitle": "Líder de Ciência de Dados",
+    "roleDescription": "Liderei os esforços em ciência de dados, incluindo pesquisa, implementação e validação de modelos preditivos para séries temporais. Também contribuí para o design da arquitetura geral do serviço de previsão, garantindo integração fluida com ferramentas de orquestração e monitoramento em produção.",
+    "images": [
+      "time_series_forecast_splunk.png",
+      "time_series_graph.png",
+      "mlflow_airflow_pipeline.png"
+    ],
+    "additionalRoles": [
+      {
+        "title": "Engenheiro de Machine Learning",
+        "text": "Desenhei e implementei pipelines completos de modelagem integrados ao MLflow para rastreamento, versionamento e comparação de modelos. Automatizei a seleção de modelos com base em métricas de desempenho."
+      },
+      {
+        "title": "Desenvolvedor Backend",
+        "text": "Planejei e desenvolvi a arquitetura backend do serviço de previsão, integrando APIs com bancos de dados e sistemas de orquestração (Airflow). O sistema foi implantado em ambiente Kubernetes com pods agendados para previsões periódicas."
+      },
+      {
+        "title": "Pesquisador em Séries Temporais",
+        "text": "Pesquisei, implementei e avaliei diversas abordagens de previsão, incluindo ARIMA, SARIMA, Prophet, suavização exponencial e redes neurais recorrentes (RNNs), visando precisão e robustez."
+      }
+    ]
   }
-  
+}

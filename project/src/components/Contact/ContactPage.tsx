@@ -2,8 +2,11 @@ import { useEffect, useRef, useState } from "react";
 import Lottie, { LottieRefCurrentProps } from "lottie-react";
 import mapLoadingAnimation from "../../assets/contact_images/map-loading.json";
 import { FaPhoneAlt, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export default function ContactPage() {
+  const { t } = useTranslation();
+
   const [mapHasLoaded, setMapHasLoaded] = useState(false);
   const [minTimePassed, setMinTimePassed] = useState(false);
   const [showLoader, setShowLoader] = useState(true);
@@ -32,10 +35,13 @@ export default function ContactPage() {
       <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-6xl flex flex-col md:flex-row items-start gap-2">
         {/* Left: Contact Info */}
         <div className="flex-1 space-y-4">
-          <h2 className="text-3xl font-raleway-100 text-light-purple-300 mb-4">Contact Me</h2>
+          <h2 className="text-3xl font-raleway-100 text-light-purple-300 mb-4">{t("contact.title")}</h2>
           <div className="flex items-center gap-3">
             <FaPhoneAlt className="text-mint-300" />
-            <span className="text-lg text-dark-purple-900">+55 (83) 99123-0473</span>
+            <span className="text-lg text-dark-purple-900">
+              {t("contact.phone")}: +55 (83) 99123-0473
+            </span>
+            {/* <span className="text-lg text-dark-purple-900">+55 (83) 99123-0473</span> */}
           </div>
           <div className="flex items-center gap-3">
             <FaEnvelope className="text-mint-300" />
@@ -43,7 +49,7 @@ export default function ContactPage() {
               href="mailto:caioh_m@outlook.com?subject=Solicitação de Serviço&body=Olá, gostaria de solicitar mais informações sobre seus serviços. Por favor, me envie detalhes sobre como podemos trabalhar juntos."
               className="text-lg hover:underline text-dark-purple-900"
             >
-              caioh_m@outlook.com
+              {t("contact.email")}: caioh_m@outlook.com
             </a>
           </div>
           <div className="flex items-center gap-3">
@@ -69,7 +75,7 @@ export default function ContactPage() {
             </a>
           </div>
           <footer className="mt-22 text-sm text-gray-400 border-t pt-4">
-            © 2025 Caio Medeiros. All rights reserved.
+            {t("contact.footer")}
           </footer>
         </div>
 

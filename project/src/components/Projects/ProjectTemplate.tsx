@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next"; 
 
 interface ProjectData {
   projectName: string,
@@ -19,18 +20,22 @@ const images = import.meta.glob('../../assets/projects_images/*.{png,jpg,jpeg,sv
 
 export default function ProjectTemplate() {
   const { projectId } = useParams();
+  const { i18n } = useTranslation();  
   const [data, setData] = useState<ProjectData | null>(null);
 
   useEffect(() => {
-    console.log("Tentando carregar:", `../data/${projectId}.json`);
+    const lang = i18n.language.startsWith("pt") ? "pt" : "en";
+
     import(`./Data/projectsData/${projectId}.json`)
-      .then((module) => setData(module.default))
+      .then((module) => {
+        const translatedData = module.default[lang];
+        setData(translatedData);
+      })
       .catch((err) => {
         console.error("Erro ao carregar dados do projeto:", err);
-        console.error("projectId:", projectId);
         alert("Erro ao carregar projeto: " + projectId);
       });
-  }, [projectId]);
+  }, [projectId, i18n.language]);  
 
   if (!data) {
     return <div className="text-center mt-16 text-white">Project Not found.</div>;
@@ -49,7 +54,7 @@ export default function ProjectTemplate() {
         <div className="flex flex-col items-start mb-6">
           <button
             onClick={() => window.history.back()}
-            className="text-sm text-light-purple-300 hover:underline mb-4 cursor-pointer"
+            className="text-sm text-light-purple-300 hover:underline mb-4"
           >
             ← Back to Projects
           </button>
