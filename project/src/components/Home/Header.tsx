@@ -20,13 +20,13 @@ export default function Header() {
     <header className="fixed top-0 left-0 w-full z-50 bg-light-purple-300 border-b border-gray-700">
       <div className="max-w-6xl mx-auto py-4 px-6 sm:px-8 flex justify-between items-center">
         {/* Logo or site name - Left aligned */}
-        <div className="flex items-center space-x-2">
+        <Link to="/" className="flex items-center space-x-2">
           <img src={company_logo} alt="Logo" className="w-10 h-10" />
           <div className="text-vanilla-gray-300 font-bold text-xl font-mono">
             CM Technology
           </div>
-        </div>
-
+        </Link>
+        
         {/* Menu e Links (GitHub, LinkedIn, Language Switch) - Right aligned */}
         <div className="ml-auto flex items-center space-x-6 text-lg text-vanilla-gray-300 font-mono">
           {/* Desktop Menu */}
