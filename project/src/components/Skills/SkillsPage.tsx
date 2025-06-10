@@ -100,7 +100,7 @@ export default function Skills() {
           </div>
         </div>
         <footer className="mt-16 text-sm text-gray-400 border-t pt-4">
-         <li>{t("skillsSection.footer")}</li>
+          {t("skillsSection.footer")}
         </footer>
       </div>
     </section>
